@@ -1,0 +1,25 @@
+.left-panel {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; // Bootstrap light background color
+
+  .logo-container {
+    // Logo styles go here
+  }
+
+  .headshot-container {
+    // Headshot styles go here
+  }
+
+  .welcome-message {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

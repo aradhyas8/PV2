@@ -1,0 +1,44 @@
+.VerticalNavbar {
+  background-color: #FFFFFF;
+  width: 200px;
+  padding: 20px;
+}
+
+.Navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Navbar-item {
+  margin-bottom: 10px;
+}
+
+.Navbar-link {
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  padding-left: 20px;
+  transition: color 0.3s;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #333333;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  &:hover {
+    color: #333333;
+  }
+}

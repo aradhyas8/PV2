@@ -1,0 +1,43 @@
+.parent {
+ 
+  display: flex;
+  justify-content: center; // Horizontally center
+  align-items: center;     // Vertically center
+
+
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100%; // Ensures it takes full width of its parent
+}
+
+.Header {
+  max-width: fit-content;
+  text-align: left;
+  padding: 40px;
+
+  border-radius: 20px;
+  margin: 5rem auto; 
+  
+}
+
+.Header-main {
+  color: #000000;
+  margin-bottom: 0.2em;
+}
+
+.Header-sub {
+  color: #333333;
+
+  font-weight: 300;
+}
+
+.Header-three { 
+  color: #333333;
+
+  font-weight: 300;
+  margin-bottom: 0.2em;
+  
+}

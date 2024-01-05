@@ -1,0 +1,15 @@
+.experience-milestone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .milestone-date {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .milestone-content {
+    border-left: 2px solid #007bff; // Bootstrap primary color
+    padding-left: 10px;
+  }
+}

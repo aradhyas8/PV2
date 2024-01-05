@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.split-screen {
+  display: flex;
+  height: 100vh; /* Full height */
+}
+
+.left-pane, .right-pane {
+  flex: 1; /* Both take up equal width */
+  width: 50%; /* Explicitly set to 50% */
+  
+}
+
+/* Example background colors for illustration */
+.left-pane {
+  background-color: #e6f1ff;
+}
+
+.right-pane {
+  background-color: #121212;
+  overflow-y: auto; /* Makes both sides scrollable */
+}
+
+/* Responsive design for mobile view */
+@media (max-width: 768px) {
+  .split-screen {
+    flex-direction: column;
+  }
+
+  .left-pane, .right-pane {
+    width: 100%; /* Full width on mobile */
+  }
+}

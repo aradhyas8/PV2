@@ -1,0 +1,17 @@
+.navbar {
+  margin-top: 30px;
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+
+    .nav-item {
+      cursor: pointer;
+      margin-bottom: 10px;
+      color: #007bff; // Bootstrap primary color
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
